@@ -1,0 +1,29 @@
+#contacto1{
+    height: 800px;
+}
+#modulo_cont{
+    height: 480px;
+}
+#modulo_cont3{
+    height: 400px;
+}
+#cont7{
+    height: 400px;
+}
+.titulo_servicios {
+    margin: 0px 0 0px 0px;
+    font-size: 56px;
+    color: yellow;
+    background-color: #000000;
+    text-align: left; 
+    border-style: groove;
+    border-color: #000000; 
+    margin-bottom: 5px;
+    border-radius: 6px;
+}
+
+@media all and (max-width: 599px) {
+    #contacto1, #modulo_cont, #modulo_cont3,#cont7{
+        height: auto;
+    } 
+}
